@@ -257,5 +257,8 @@ fixtures = [
     },
      {
         "doctype":"Workflow Action Master"
+    },
+    {
+        "doctype":"Role" 
     }
 ]
