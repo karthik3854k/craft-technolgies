@@ -260,5 +260,8 @@ fixtures = [
     },
     {
         "doctype":"Role" 
+    },
+    {
+        "doctype":"Dashboard"
     }
 ]
