@@ -242,3 +242,20 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+fixtures = [
+    {
+        "doctype": "Workflow",
+        "filters": [["document_type", "=", "Machine Maintenance"]]
+    },
+    {
+        "doctype": "Notification",
+        "filters": [["document_type", "=", "Machine Maintenance"]]
+    },
+    {
+        "doctype":"Workflow State"
+    },
+     {
+        "doctype":"Workflow Action Master"
+    }
+]
